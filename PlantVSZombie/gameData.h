@@ -1,0 +1,93 @@
+#ifndef __GAME_DATA_H_
+#define __GAME_DATA_H_
+
+#define ROW_LEN 22
+#define COL_LEN 12
+#define MAX_CURSOR_Y 6
+#define MAX_CURSOR_X 11
+
+#define MAX_PLANT_NUM 48
+#define MAX_ENEMY_NUM 48
+#define MAX_BULLET_NUM 48
+
+#define FIRST_MONEY 6000
+
+#define A_ATT_DELAY 300
+#define A_HEALTH 3
+#define A_POWER 1
+#define A_SHOOT_MODE 1
+
+#define S_ATT_DELAY 300
+#define S_HEALTH 3
+#define S_POWER 1
+#define S_SHOOT_MODE 2
+
+#define D_ATT_DELAY 1000
+#define D_HEALTH 3
+#define D_POWER 5
+#define D_SHOOT_MODE 3
+
+#define F_ATT_DELAY 500
+#define F_HEALTH 3
+#define F_POWER 5
+#define F_SHOOT_MODE 4
+
+#define UP_A_ATT_DELAY 300
+#define UP_A_HEALTH 3
+#define UP_A_POWER 2
+#define UP_A_SHOOT_MODE 1
+
+#define UP_S_ATT_DELAY 300
+#define UP_S_HEALTH 3
+#define UP_S_POWER 2
+#define UP_S_SHOOT_MODE 2
+
+#define UP_D_ATT_DELAY 250
+#define UP_D_HEALTH 3
+#define UP_D_POWER 5
+#define UP_D_SHOOT_MODE 3
+
+#define UP_F_ATT_DELAY 300
+#define UP_F_HEALTH 3
+#define UP_F_POWER 2
+#define UP_F_SHOOT_MODE 4
+
+#define S1_SHOOT_MODE 9
+#define S2_SHOOT_MODE 10
+#define S1_ATT_TIMER 280
+
+#define UP_S1_SHOOT_MODE 9
+#define UP_S2_SHOOT_MODE 10
+#define S2_ATT_TIMER 280
+
+#define BULLET_MOV_DELAY 10
+#define LINE_BULLET_MOV_DELAY 20
+
+#define BULLET_ONE_HIT_MODE 1
+#define BULLET_BOMB_HIT_MODE 2
+#define BULLET_BOMB_HIT_MODE_NEXT 3
+#define BULLET_LINE_HIT_MODE 4
+
+#define BOMB_RANGE 4
+
+#define COST_A 100
+#define COST_S 200
+#define COST_D 300
+#define COST_F 400
+#define COST_UP_A 100
+#define COST_UP_S 200
+#define COST_UP_D 300
+#define COST_UP_F 400
+
+#define ENEMY_SUMMON_DELAY 500
+#define ENEMY_MOV_DELAY 300
+#define ENEMY2_MOV_DELAY 200
+#define GRADE1_ENEMY_POWER 1
+#define GRADE2_ENEMY_POWER 2
+#define GRADE3_ENEMY_POWER 3
+#define GRADE4_ENEMY_POWER 4
+#define GRADE5_ENEMY_POWER 5
+
+enum { PLANT_A = 1, PLANT_S, PLANT_D, PLANT_F, PLANT_UP_A, PLANT_UP_S, PLANT_UP_D, PLANT_UP_F, P_BULLET, P_BOMB, P_LINE, ENEMY1, ENEMY2, ENEMY3, ENEMY4, ENEMY5, UPGRADE, SELL_PLANT, CURSOR, BLANK };
+
+#endif
